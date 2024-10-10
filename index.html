@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Watering Reminder</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Plant Watering Reminder</h1>
+
+        <div class="add-plant-form">
+            <input type="text" id="plantName" placeholder="Plant Name" required>
+            <input type="number" id="wateringInterval" placeholder="Watering Interval (days)" required>
+            <button id="addPlant">Add Plant</button>
+        </div>
+
+        <div id="plantList" class="plant-list">
+            
+        </div>
+
+        <div id="plantList" class="plant-list loading"></div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
